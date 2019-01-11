@@ -1,4 +1,7 @@
 html, body {
-    background-image: url(/img/dewang-gupta-1286503-unsplash-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(/img/dewang-gupta-1286503-unsplash-min.jpg);
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
