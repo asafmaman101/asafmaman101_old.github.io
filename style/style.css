@@ -30,6 +30,10 @@ h1 {
     text-align: center;
 }
 
+.nav-menu {
+    display: none;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -94,6 +98,11 @@ a:active {
     padding: 12% 15px;
     font-size: 80%;
     position: relative;
+}
+
+.about-me p {
+    line-height: 1.4em;
+/*    text-align: justify;*/
 }
 
 h2 {
