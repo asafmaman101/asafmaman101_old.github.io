@@ -88,19 +88,55 @@ a:active {
 }
 
 .about-me {
+    margin: 18% 10px 2px 10px;
+    padding: 12% 15px 25px 15px;
+}
+
+.contact-me {
+    margin: 2px 10px;
+    padding: 25px 15px;
+}
+
+.contact-me .icon {
+    font-size: 150%;
+    padding: 5px;
+}
+
+.contact-me,
+.about-me {
     background-color: #e8e8e8;
     color: #333;
     border-radius: 5px;
-    margin: 18% 10px 2px 10px;
-    padding: 12% 15px 25px 15px;
+
     font-size: 80%;
     position: relative;
 }
 
+.contact-me a,
+.contact-me lable{
+    font-size: 150%
+}
+
+.contact-me a:link,
+.contact-me a:visited {
+    color: #333;
+}
+
+.contact-me a:hover,
+.contact-me a:active {
+    color: #333;
+}
+
+.contact-me p,
 .about-me p {
     line-height: 1.4em;
     font-size: 150%
 /*    text-align: justify;*/
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -125,6 +161,7 @@ h2 {
     transform: translate(-50%,-50%)
 }
 
+
 .img-item {
     width: 100%;
     margin-bottom: 10px;
@@ -142,6 +179,11 @@ h2 {
 .my-pictures h2 {
     margin: 10px;
 }
+.my-pictures h3 {
+    margin-bottom: 10px;
+    font-size: 150%;
+}
+
 
 @media (min-width: 769px) {
     .container {
@@ -149,3 +191,4 @@ h2 {
         margin-right: auto;
     }
 } 
+
