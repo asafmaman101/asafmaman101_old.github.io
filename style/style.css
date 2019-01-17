@@ -78,7 +78,7 @@ a:link,
 a:visited {
     color: #e8e8e8;
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color 0.2s, border 0.2s;
     border-bottom: 2px solid transparent;
     
 }
@@ -95,7 +95,7 @@ a:active {
     color: #333;
     border-radius: 5px;
     margin: 18% 10px 2px 10px;
-    padding: 12% 15px;
+    padding: 12% 15px 15px 15px;
     font-size: 80%;
     position: relative;
 }
