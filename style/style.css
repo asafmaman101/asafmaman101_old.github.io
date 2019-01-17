@@ -61,6 +61,7 @@ input[type="button"] {
     background-color: transparent;
     border: 0;
     outline: none;
+    border-radius: 0;
 }
 
 input[type="button"],
@@ -133,6 +134,15 @@ h2 {
 .img-item {
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.my-pictures {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+ 
 }
 
 .my-pictures h2 {
