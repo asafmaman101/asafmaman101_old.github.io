@@ -45,15 +45,14 @@ ol {
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 
 }
 
 li {
     display: block;
     text-align: center;
-    padding: 5px;
-
-
+    padding: 0;
 }
 
 input[type="button"] {
@@ -62,18 +61,13 @@ input[type="button"] {
     border: 0;
     outline: none;
     border-radius: 0;
+    display: block;
+    font-size: 250%;
+    padding: 7px;
+    font-family: 'Cabin', sans-serif;
+    width: 100%;
 }
 
-input[type="button"],
-a {
-    display: block; 
-    font-size: 180%;
-    padding: 7px;
-/*    font-family: 'Titillium Web', sans-serif;*/
-    font-family: 'Cabin', sans-serif;
-/*    font-family: 'Fjalla One', sans-serif;*/
-/*    font-family: 'Lobster', cursive;*/
-}
 
 
 input[type="button"],
@@ -148,7 +142,6 @@ h2 {
 .my-pictures h2 {
     margin: 10px;
 }
-
 
 @media (min-width: 769px) {
     .container {
