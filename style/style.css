@@ -13,7 +13,7 @@ font-family: 'Lobster', cursive;
 body {
     background-color: #333;
     color: #e8e8e8;
-    font-size: px;
+    font-size: 12px;
     font-family: 'Cabin', 'helvetica', sans-serif;
     border: 0;
     box-sizing: content-box;
@@ -23,7 +23,8 @@ h1 {
     font-family: 'Lobster', cursive;
     margin: 0 auto;
     text-align: center;
-    padding: 5px 
+    padding: 5px;
+    font-size: 300%
 }
 
 .menu-btn {
@@ -65,7 +66,7 @@ input[type="button"] {
 input[type="button"],
 a {
     display: block; 
-    font-size: 200%;
+    font-size: 180%;
     padding: 7px;
 /*    font-family: 'Titillium Web', sans-serif;*/
     font-family: 'Cabin', sans-serif;
@@ -113,7 +114,7 @@ h2 {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 900px;
 }
 
 .my-img {
@@ -135,3 +136,11 @@ h2 {
 .my-pictures h2 {
     margin: 10px;
 }
+
+
+@media (min-width: 769px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
