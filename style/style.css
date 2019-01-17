@@ -104,6 +104,7 @@ a:active {
 
 .about-me p {
     line-height: 1.4em;
+    font-size: 150%
 /*    text-align: justify;*/
 }
 
@@ -111,6 +112,7 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
     margin-bottom: 5px;
     clear: both;
+    font-size: 250%;
 }
 
 .container {
