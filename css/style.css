@@ -9,7 +9,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Bitter', serif;
+    font-family: 'Bitter', 'Bree Serif', serif;
     background-color: #fffce8;
     font-size: 130%;
 }
@@ -133,7 +133,7 @@ form {
 form input {
     border: 0;
     padding: 6px;
-    font-family: 'Bitter', serif;
+    font-family: 'bitter', serif;
     font-size: 90%;
     border-radius: 0;
 }
